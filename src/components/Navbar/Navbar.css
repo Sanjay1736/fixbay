@@ -7,6 +7,11 @@
   width: 95%;
   height: 80px;
   border-radius: 13px;
+  position:fixed;
+  top:20px;
+  left:50%;
+  transform: translate(-50%);
+  z-index: 9999;
 }
 .navbar-logo {
   color: #222;
@@ -53,7 +58,10 @@ button:hover {
   background-color: #151516;
   color: white;
 }
-/* @media screen and (max-width:850px) {
+.menu-icons{
+  display:none;
+}
+ @media screen and (max-width:850px) {
     .navbarItems{
         z-index: 99;
     }
@@ -73,12 +81,14 @@ button:hover {
         align-items: stretch;
         padding: 80px 0 30px 0;
         margin:0;
-       
+        /* opacity: 1;
+      z-index: -1; */
     }
     .nav-menu.active{
      left:0;
      opacity: 1;
       z-index: -1;
+      transition: 0.3s ease-in-out;
     }
     .nav-links{
       display:block;
@@ -107,5 +117,13 @@ button:hover {
         font-weight:700;
         letter-spacing: 2px;
     }
+    .menu-icons{
+  display:block;
+  cursor: pointer;
+}
+.menu-icon i{
+  font-size:1.2rem;
+  color:#222;
+}
     
-} */
+} 
