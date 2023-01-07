@@ -1,0 +1,19 @@
+.images{
+    width:500px;
+    height:350px;
+    border:solid black;
+}
+.img{
+    width: 500px;
+    height:150px;
+    object-fit: cover;
+    /* object-position: center; */
+}
+.container{
+    position: relative;
+    top: 20px;
+    display: flex;
+   justify-items: stretch;
+   justify-content: space-around;
+   align-items: center;
+}
