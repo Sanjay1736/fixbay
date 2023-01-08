@@ -3,25 +3,43 @@ export const menuItems = [
     title: "Home",
     url: "/",
     clName: "nav-links",
-    icon: "fa-solid fa-house-user",
+   
   },
   {
     title: "Services",
     url: "/services",
     clName: "nav-links",
-    icon: "fa-sharp fa-solid fa-screwdriver-wrench",
+   
   },
   {
     title: "About",
     url: "/about",
     clName: "nav-links",
-    icon: "fa-solid fa-circle-info",
+    
   },
   {
-    title: "Contact",
-    url: "/contact",
+    title: "Smart-TV",
+    url: "/smartTv",
     clName: "nav-links",
-    icon: "fa-solid fa-address-book",
+
+  },
+  {
+    title: "Washing Machine",
+    url: "/washing-machine",
+    clName: "nav-links",
+ 
+  },
+  {
+    title: "Refrigerator",
+    url: "/refrigerator",
+    clName: "nav-links",
+   
+  },
+  {
+    title: "Airconditioner",
+    url: "/airconditioner",
+    clName: "nav-links",
+   
   },
   {
     title: "Signup",

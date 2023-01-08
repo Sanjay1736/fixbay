@@ -18,7 +18,6 @@ const Navbar = () => {
           return (
             <li key={index}>
               <Link className={items.clName} to={items.url}>
-                <i className={items.icon}></i>
                 {items.title}
               </Link>
             </li>
